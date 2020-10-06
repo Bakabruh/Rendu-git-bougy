@@ -4,22 +4,45 @@
     box-sizing: border-box;
 }
 
+.jtBody {
+    background-color: #2f3136;
+}
+
 .jtMain h1 {
     font-family: 'Montserrat', sans-serif;
     width: 90%;
     margin: 5% auto;
+    color: white;
 }
 
-.allgames {
-    /* background-image: url("../img/jeux.png");
-    background-repeat: no-repeat;
-    background-size: cover; */
+.jtAllgames {
+
     height: auto;
     width: 100%;
 }
 
-.allgames img {
+.jtAllgames img {
     height: auto;
     max-height: 100vH;
+    width: 100%;
+}
+
+.jtTournois {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.jtsec {
+    background-color: #2f3136;
+    height: 20vH;
+    width: 15%;
+    border-radius: 15%;
+}
+
+.jtEnd {
+    height: 20vH;
     width: 100%;
 }
