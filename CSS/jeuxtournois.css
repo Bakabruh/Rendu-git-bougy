@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jtMain h1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin: 5% auto;
+}
+
+.allgames {
+    background-image: url("../img/jeux.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 481px;
+}
