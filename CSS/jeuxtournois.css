@@ -11,8 +11,15 @@
 }
 
 .allgames {
-    background-image: url("../img/jeux.png");
+    /* background-image: url("../img/jeux.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 481px;
+    background-size: cover; */
+    height: auto;
+    width: 100%;
+}
+
+.allgames img {
+    height: auto;
+    max-height: 100vH;
+    width: 100%;
 }
