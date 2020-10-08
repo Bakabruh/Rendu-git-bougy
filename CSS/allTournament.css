@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ----------Filters----------- */
+
+.allTH1 {
+    font-weight: bold;
+    padding: 100px;
+}
+
+.allTFilters {
+    word-spacing: 2px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
