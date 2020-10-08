@@ -4,15 +4,21 @@
     box-sizing: border-box;
 }
 
+#allTMain {
+    background-color: gray;
+}
 
 /* ----------Filters----------- */
 
 .allTH1 {
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     padding: 100px;
 }
 
 .allTFilters {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
     word-spacing: 2px;
     font-weight: bold;
     padding-top: 20px;
@@ -23,6 +29,8 @@
 /* ---------Tournament----------- */
 
 .allTTournament {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
     padding-top: 10px;
     display: flex;
     justify-content: center;
@@ -44,6 +52,7 @@
 /* ------------ Défilement ---------- */
 
 .allTEnd {
+    font-family: 'Montserrat', sans-serif;
     width: 20%;
     padding: 100px 0;
     text-align: center;
@@ -57,6 +66,7 @@
 /* ------------ Footer -------------- */
 
 .allTFooter {
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: space-around;
     padding: 50px;
