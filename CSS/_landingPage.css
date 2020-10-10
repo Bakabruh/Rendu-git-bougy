@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#index  {
+    background-color: #2f3136;
+}
+
+/* HEADER */
+#index header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg_LDV_PGW.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#opacity {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.4) ;
+}
+
+/* NAV */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 5em;
+}
+
+nav img {
+    height: 8em;
+    width: 6em;
+}
+
+nav a {
+    padding-left: 1em;
+    padding-bottom: 0.4em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+
+/* OTHER */
+#index header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    width: 70%;
+    position: relative;
+    top: 20%;
+    margin: auto;
+    border: 1px dotted white;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    color: white;
+}
+
+#index header div p {
+    padding: 2% 4%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+#next {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -28%;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1em;
+    color: white;
+}
+
+/* MAIN */
+/* -- Section Jeux -- */
+#idxGame h2, #idxToornament h2 {
+    margin: 2% 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: white;
+}
+
+.idxPictureGame {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.idxPictureGame div {
+    height: 25em;
+    width: 20em;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#idxGame a, #idxToornament a {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1em;
+    color: white;
+}
+
+/* -- Section Tournois -- */
+.idxPictureToornament {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.idxPictureToornament div {
+    margin: auto;
+    margin-top: 20px;
+    height: 7em;
+    width: 80%;
+    background-color: white;
+    border-radius: 100px;
+}
+
+/* FOOTER */
+#index footer {
+    margin-top: 50px;
+    height: 20vh;
+    width: 100%;
+    background-color: white;
+}
