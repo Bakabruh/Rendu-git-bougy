@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#allTMain {
+    background-color: gray;
+}
+
+/* ----------Filters----------- */
+
+.allTH1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 100px;
+}
+
+.allTFilters {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    word-spacing: 2px;
+    font-weight: bold;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ---------Tournament----------- */
+
+.allTTournament {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.allTTitle {
+    padding-right: 100px ;
+    display: flex;
+    align-items: center;
+}
+
+.allTMatch {
+    line-height: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* ------------ Défilement ---------- */
+
+.allTEnd {
+    font-family: 'Montserrat', sans-serif;
+    width: 20%;
+    padding: 100px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.allTEnd p {
+    padding: 20px;
+}
+
+/* ------------ Footer -------------- */
+
+.allTFooter {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
