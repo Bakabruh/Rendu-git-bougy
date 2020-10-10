@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jtBody {
+    background-color: #2f3136;
+}
+
+.jtMain h1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin: 5% auto;
+    color: white;
+}
+
+.jtAllgames {
+
+    height: auto;
+    width: 100%;
+}
+
+.jtAllgames img {
+    height: auto;
+    max-height: 100vH;
+    width: 100%;
+}
+
+.jtTournois {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.jtsec {
+    background-color: #2f3136;
+    height: 20vH;
+    width: 15%;
+    border-radius: 15%;
+}
+
+.jtEnd {
+    height: 20vH;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jtEnd img {
+    border-radius: 15%;
+}
