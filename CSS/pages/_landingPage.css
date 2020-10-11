@@ -31,6 +31,10 @@ nav {
     padding: 1em 5em;
 }
 
+#sombre {
+    background-color:  #2f3136;
+}
+
 nav img {
     height: 8em;
     width: 6em;
