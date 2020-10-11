@@ -3,7 +3,7 @@
 
 @import 'pages/_connect.css';
 @import 'bases/_typos.css';
-@import 'jeuxtournois.css';
-@import '_landingPage.css';
-@import 'allTournament.css';
-@import 'contact.css';
+@import 'pages/_allTournament.css';
+@import 'pages/_landingPage.css';
+@import 'pages/_contact.css';
+@import 'pages/_classement.css';
